@@ -17,4 +17,6 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+		void randomCircle(float diameter, float min, float max, float rd, float rx, float ry, float rz);
+		int state;
 };
