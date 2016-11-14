@@ -19,4 +19,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		void randomCircle(float diameter, float min, float max, float rd, float rx, float ry, float rz);
 		int state;
+		vector<ofVideoPlayer> fs;
+		void loadVideo(string path, float fspeed);
 };
